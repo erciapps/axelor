@@ -12,7 +12,7 @@ services:
       - DEV_MODE=true
       - JAVA_XMX=4096m
     ports:
-      - "8080:8080"
+      - "8085:8080"
     volumes:
       - app_data:/data
     healthcheck:
